@@ -1,3 +1,7 @@
+/*
+Given an array arr[] of size N, the task is to find the largest element in the given array.
+ */
+
 package Arrays;
 import java.util.Scanner;
 public class largestElement {
@@ -10,9 +14,6 @@ public class largestElement {
 
         }
         System.out.println(largest(arr));
-
-
-
     }
     static int largest(int[] arr){
         int res= 0;
@@ -21,7 +22,6 @@ public class largestElement {
             if(arr[i]>res){
                 res = arr[i];
             }
-
         }
         return res;
     }
